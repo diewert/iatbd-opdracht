@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    transition: transform 0.2s;
+}
+
+body {
+    background-color: #f8f9fa; /* Lichte achtergrondkleur voor de body */
+}
+
+.container {
+    background-color: rgb(94, 237, 248); /* Witte achtergrond voor de container */
+    border-radius: 10px; /* Ronde hoeken voor een mooiere uitstraling */
+    padding: 20px; /* Padding rondom de inhoud */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schaduw rondom de container */
+}
+.btn-custom {
+    background-color: #52585f; /* Blauw */
+    color: white; /* Witte tekst */
+    font-size: 1.25rem; /* Grotere tekst */
+    padding: 5px 10px; /* Meer padding */
+    border-radius: 15px; /* Ronde hoeken */
+    transition: background-color 0.3s; /* Voor een vloeiende overgang */
+}
+
+.kopjes{
+    font-weight: bold;
+    font-size:large;
+}
+.btn-custom:hover {
+    background-color: #343434; /* Donkerder blauw bij hover */
+}
+
